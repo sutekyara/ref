@@ -1,7 +1,7 @@
 
 var fs = require('fs')
 var assert = require('assert')
-var weak = require('weak')
+var weak = require('@suldashi/weak')
 var ref = require('../')
 
 describe('reinterpretUntilZeros()', function () {

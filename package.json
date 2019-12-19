@@ -1,6 +1,6 @@
 {
-  "name": "ref",
-  "description": "Turn Buffer instances into \"pointers\"",
+  "name": "@suldashi/ref",
+  "description": "Turn Buffer instances into \"pointers\". Fixed Node 12 build.",
   "keywords": [
     "native",
     "buffer",
@@ -22,7 +22,7 @@
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/ref.git"
+    "url": "git://github.com/suldashi/ref.git"
   },
   "main": "./lib/ref.js",
   "scripts": {
@@ -40,6 +40,6 @@
     "jade": "1",
     "marked": "0.6.2",
     "mocha": "*",
-    "weak": "github:lxe/node-weak#node-12"
+    "@suldashi/weak": "^2.0.1"
   }
 }
